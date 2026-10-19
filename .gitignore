@@ -1,0 +1,54 @@
+# Next.js build y cache
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Dependencias de Node
+node_modules/
+package-lock.json.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml
+pnpm-workspace.yaml
+lerna-debug.log*
+
+# Asistentes AI y herramientas de desarrollo (Skills y Claude)
+.agents/
+.claude/
+skills-lock.json
+
+# Sesión de navegador y datos de usuario de Puppeteer (cookies / credenciales locales)
+.fb_session/
+.puppeteer/
+
+# Archivos de salida generados y descargas
+downloads/
+*.zip
+*.tar.gz
+*.rar
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Logs y archivos temporales
+*.log
+logs/
+tmp/
+temp/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
